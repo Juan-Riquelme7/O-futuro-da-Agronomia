@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor0: #cee8f2ff;
+    --cor1: #a1e887ff;
+    --cor2: rgb(168, 217, 63);
+    --cor3: #2c6e49ff;
+    --cor4: #280003ff;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-destaque);
+}
+
+header {
+    height: 60px;
+}
+
+li {
+    display: inline;
+    margin: auto;
+}
+
+.aside1 {
+    background-color: var(--cor1);
+}
+
+#set1, #set2 {
+    display: inline;
+}
+
+.nav-bar {
+    display: inline;
+}
